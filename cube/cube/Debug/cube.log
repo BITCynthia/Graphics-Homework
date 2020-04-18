@@ -1,0 +1,96 @@
+﻿  window.cpp
+c:\users\cynthia\onedrive\课件\04-计算机图形与图像处理\week7\cube\cube\window.cpp(208): warning C4838: 从“int”转换到“BYTE”需要收缩转换
+window.obj : error LNK2019: 无法解析的外部符号 __imp__GetModuleHandleA@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__ChoosePixelFormat@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__SetPixelFormat@12，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__wglCreateContext@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__wglDeleteContext@4，该符号在函数 "void __cdecl KillGLWindow(void)" (?KillGLWindow@@YAXXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__wglMakeCurrent@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__SwapBuffers@4，该符号在函数 _WinMain@16 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__TranslateMessage@4，该符号在函数 _WinMain@16 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__DispatchMessageA@4，该符号在函数 _WinMain@16 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__PeekMessageA@20，该符号在函数 _WinMain@16 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__DefWindowProcA@16，该符号在函数 "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__PostQuitMessage@4，该符号在函数 "long __stdcall WndProc(struct HWND__ *,unsigned int,unsigned int,long)" (?WndProc@@YGJPAUHWND__@@IIJ@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__RegisterClassA@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__UnregisterClassA@8，该符号在函数 "void __cdecl KillGLWindow(void)" (?KillGLWindow@@YAXXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__CreateWindowExA@48，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__DestroyWindow@4，该符号在函数 "void __cdecl KillGLWindow(void)" (?KillGLWindow@@YAXXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__ShowWindow@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__SetFocus@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__SetForegroundWindow@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__GetDC@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__ReleaseDC@8，该符号在函数 "void __cdecl KillGLWindow(void)" (?KillGLWindow@@YAXXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__AdjustWindowRectEx@16，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__MessageBoxA@16，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__ShowCursor@4，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__LoadCursorA@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__LoadIconA@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__ChangeDisplaySettingsA@8，该符号在函数 "int __cdecl CreateGLWindow(char *,int,int,int,bool)" (?CreateGLWindow@@YAHPADHHH_N@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glClear@4，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glClearColor@16，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glClearDepth@8，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glDepthFunc@4，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glEnable@4，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glHint@8，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glLoadIdentity@0，该符号在函数 "int __cdecl DrawGLScene(void)" (?DrawGLScene@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glMatrixMode@4，该符号在函数 "void __cdecl ReSizeGLScene(int,int)" (?ReSizeGLScene@@YAXHH@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glShadeModel@4，该符号在函数 "int __cdecl InitGL(void)" (?InitGL@@YAHXZ) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 __imp__glViewport@16，该符号在函数 "void __cdecl ReSizeGLScene(int,int)" (?ReSizeGLScene@@YAXHH@Z) 中被引用
+window.obj : error LNK2019: 无法解析的外部符号 _gluPerspective@32，该符号在函数 "void __cdecl ReSizeGLScene(int,int)" (?ReSizeGLScene@@YAXHH@Z) 中被引用
+MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 __imp__UnhandledExceptionFilter@4，该符号在函数 ___raise_securityfailure 中被引用
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 __imp__UnhandledExceptionFilter@4
+MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 __imp__SetUnhandledExceptionFilter@4，该符号在函数 ___raise_securityfailure 中被引用
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 __imp__SetUnhandledExceptionFilter@4
+MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentProcess@0，该符号在函数 ___raise_securityfailure 中被引用
+MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 __imp__TerminateProcess@8，该符号在函数 ___raise_securityfailure 中被引用
+MSVCRTD.lib(gs_report.obj) : error LNK2019: 无法解析的外部符号 _IsProcessorFeaturePresent@4，该符号在函数 ___report_gsfailure 中被引用
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 _IsProcessorFeaturePresent@4
+MSVCRTD.lib(cpu_disp.obj) : error LNK2001: 无法解析的外部符号 _IsProcessorFeaturePresent@4
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__CloseHandle@4，该符号在函数 "void __cdecl __scrt_uninitialize_thread_safe_statics(void)" (?__scrt_uninitialize_thread_safe_statics@@YAXXZ) 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__EnterCriticalSection@4，该符号在函数 __Init_thread_lock 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__LeaveCriticalSection@4，该符号在函数 __Init_thread_unlock 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__InitializeCriticalSectionAndSpinCount@8，该符号在函数 "void __cdecl __scrt_initialize_thread_safe_statics_platform_specific(void)" (?__scrt_initialize_thread_safe_statics_platform_specific@@YAXXZ) 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__DeleteCriticalSection@4，该符号在函数 "void __cdecl __scrt_uninitialize_thread_safe_statics(void)" (?__scrt_uninitialize_thread_safe_statics@@YAXXZ) 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__SetEvent@4，该符号在函数 __Init_thread_notify 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__ResetEvent@4，该符号在函数 __Init_thread_notify 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__WaitForSingleObjectEx@12，该符号在函数 __Init_thread_wait 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__CreateEventW@16，该符号在函数 "void __cdecl __scrt_initialize_thread_safe_statics_platform_specific(void)" (?__scrt_initialize_thread_safe_statics_platform_specific@@YAXXZ) 中被引用
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__GetModuleHandleW@4，该符号在函数 "void __cdecl __scrt_initialize_thread_safe_statics_platform_specific(void)" (?__scrt_initialize_thread_safe_statics_platform_specific@@YAXXZ) 中被引用
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 __imp__GetModuleHandleW@4
+MSVCRTD.lib(thread_safe_statics.obj) : error LNK2019: 无法解析的外部符号 __imp__GetProcAddress@8，该符号在函数 "void __cdecl __scrt_initialize_thread_safe_statics_platform_specific(void)" (?__scrt_initialize_thread_safe_statics_platform_specific@@YAXXZ) 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2001: 无法解析的外部符号 __imp__GetProcAddress@8
+MSVCRTD.lib(debugger_jmc.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentThreadId@0，该符号在函数 @__CheckForDebuggerJustMyCode@4 中被引用
+MSVCRTD.lib(gs_support.obj) : error LNK2001: 无法解析的外部符号 __imp__GetCurrentThreadId@0
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__IsDebuggerPresent@0，该符号在函数 "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 中被引用
+MSVCRTD.lib(utility_desktop.obj) : error LNK2001: 无法解析的外部符号 __imp__IsDebuggerPresent@0
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__RaiseException@16，该符号在函数 "void __cdecl notify_debugger(struct tagEXCEPTION_VISUALCPP_DEBUG_INFO const &)" (?notify_debugger@@YAXABUtagEXCEPTION_VISUALCPP_DEBUG_INFO@@@Z) 中被引用
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__MultiByteToWideChar@24，该符号在函数 "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 中被引用
+MSVCRTD.lib(error.obj) : error LNK2019: 无法解析的外部符号 __imp__WideCharToMultiByte@32，该符号在函数 "void __cdecl failwithmessage(void *,int,int,char const *)" (?failwithmessage@@YAXPAXHHPBD@Z) 中被引用
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: 无法解析的外部符号 __imp__GetStartupInfoW@4，该符号在函数 ___scrt_get_show_window_mode 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__GetLastError@0，该符号在函数 "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPAUHINSTANCE__@@XZ) 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__HeapAlloc@12，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__HeapFree@12，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__GetProcessHeap@0，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__VirtualQuery@12，该符号在函数 "int __cdecl _RTC_GetSrcLine(unsigned char *,wchar_t *,unsigned long,int *,wchar_t *,unsigned long)" (?_RTC_GetSrcLine@@YAHPAEPA_WKPAH1K@Z) 中被引用
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: 无法解析的外部符号 __imp__FreeLibrary@4，该符号在函数 "struct HINSTANCE__ * __cdecl GetPdbDllFromInstallPath(void)" (?GetPdbDllFromInstallPath@@YAPAUHINSTANCE__@@XZ) 中被引用
+MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__QueryPerformanceCounter@4，该符号在函数 ___get_entropy 中被引用
+MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetCurrentProcessId@0，该符号在函数 ___get_entropy 中被引用
+MSVCRTD.lib(gs_support.obj) : error LNK2019: 无法解析的外部符号 __imp__GetSystemTimeAsFileTime@4，该符号在函数 ___get_entropy 中被引用
+MSVCRTD.lib(tncleanup.obj) : error LNK2019: 无法解析的外部符号 __imp__InitializeSListHead@4，该符号在函数 "void __cdecl __scrt_initialize_type_info(void)" (?__scrt_initialize_type_info@@YAXXZ) 中被引用
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\OpenGL32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\GLu32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\GLaux.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\kernel32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\user32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\gdi32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\winspool.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\comdlg32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\advapi32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\shell32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\ole32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\oleaut32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\uuid.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\odbc32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Program Files\MATLAB\R2018a\sys\lcc64\lcc64\lib64\odbccp32.lib : warning LNK4272: 库计算机类型“x64”与目标计算机类型“x86”冲突
+C:\Users\Cynthia\OneDrive\课件\04-计算机图形与图像处理\week7\cube\Debug\cube.exe : fatal error LNK1120: 70 个无法解析的外部命令
